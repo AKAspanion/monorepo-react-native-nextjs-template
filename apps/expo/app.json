@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "template",
+    "slug": "template",
+    "version": "1.0.0",
+    "scheme": "template",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.spanion.template"
+    },
+    "android": {
+      "package": "com.spanion.template"
+    }
+  }
+}
