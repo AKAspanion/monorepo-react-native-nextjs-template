@@ -328,6 +328,7 @@ const SignUpForm = () => {
             onChange={onChange}
             alignSelf="flex-start"
             mt="$5"
+            aria-label="check"
           >
             <CheckboxIndicator mr="$2">
               <CheckboxIcon as={CheckIcon} />

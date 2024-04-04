@@ -215,6 +215,7 @@ const SignInForm = () => {
             isChecked={value}
             onChange={onChange}
             alignSelf="flex-start"
+            aria-label="check"
           >
             <CheckboxIndicator mr="$2">
               <CheckboxIcon as={CheckIcon} />
