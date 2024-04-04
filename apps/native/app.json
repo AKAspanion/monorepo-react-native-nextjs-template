@@ -1,18 +1,19 @@
 {
   "expo": {
-    "name": "template",
-    "slug": "template",
+    "name": "native",
+    "slug": "native",
     "version": "1.0.0",
-    "scheme": "template",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "scheme": "native",
+    "platforms": ["ios", "android"],
     "ios": {
-      "bundleIdentifier": "com.spanion.template"
+      "bundleIdentifier": "com.rn-nextjs.native"
     },
     "android": {
-      "package": "com.spanion.template"
-    }
+      "package": "com.rn-nextjs.template"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
   }
 }

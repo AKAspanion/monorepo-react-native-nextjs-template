@@ -12,9 +12,8 @@ export function HomeScreen() {
       <H1 sx={{ fontWeight: '800' }}>Welcome to Solito.</H1>
       <View sx={{ maxWidth: 600 }}>
         <P sx={{ textAlign: 'center' }}>
-          Here is a basic starter to show you how you can navigate from one
-          screen to another. This screen uses the same code on Next.js and React
-          Native.
+          A basic starter to show you how you can navigate from one screen to
+          another. This screen uses the same code on Next.js and React Native.
         </P>
         <P sx={{ textAlign: 'center' }}>
           Solito is made by{' '}
