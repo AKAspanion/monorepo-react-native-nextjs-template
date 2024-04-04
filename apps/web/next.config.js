@@ -16,6 +16,7 @@ const nextConfig = {
     '@dripsy/core',
     'moti',
     'app',
+    'utils',
     'react-native-reanimated',
     '@expo/html-elements',
     'react-native-gesture-handler',

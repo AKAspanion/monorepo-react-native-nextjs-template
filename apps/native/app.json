@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "rn-nextjs",
+    "slug": "rn-nextjs",
+    "version": "1.0.0",
+    "scheme": "rn-nextjs",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.native.rn-nextjs"
+    },
+    "plugins": ["expo-router"],
+    "android": {
+      "package": "com.anonymous.exporouter"
+    }
+  }
+}

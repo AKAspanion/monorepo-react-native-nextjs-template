@@ -1,10 +1,8 @@
 {
   "name": "utils",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Collection of reusable utilities used regularly.",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
   "scripts": {
     "tsc": "tsc",
     "format": "prettier --write .",
@@ -20,8 +18,5 @@
     "rimraf": "^5.0.5",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
-  },
-  "exports": {
-    ".": "./src/index.ts"
   }
 }

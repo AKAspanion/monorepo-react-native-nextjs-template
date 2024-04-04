@@ -1,8 +1,8 @@
-# Blank React Native with Nextjs Template Example Monorepo 🕴
+# Solito with Expo Router Example Monorepo 🕴
 
 ## 🔦 About
 
-This monorepo is a blank starter for an Expo + Next.js app.
+This monorepo is a starter for an Expo + Next.js app using [Expo Router](https://expo.github.io/router/) to enable a file-system based routing in native apps. The API is very Next.js- and Remix-esque. I view it as the future of cross-platform routing.
 
 ## 📦 Included packages
 
@@ -11,20 +11,20 @@ This monorepo is a blank starter for an Expo + Next.js app.
 - `dripsy` for theming/design (you can bring your own, too)
 - Expo SDK 49
 - Next.js 13
-- React Navigation 6
+- Expo Router 2
 
 ## 🗂 Folder layout
 
 - `apps` entry points for each app
 
-  - `expo`
-  - `next`
+  - `native`
+    - `app` you'll be creating files inside of `apps/expo/app` to use file system routing on iOS and Android.
+  - `web`
 
 - `packages` shared packages across apps
   - `app` you'll be importing most files from `app/`
     - `features` (don't use a `screens` folder. organize by feature.)
     - `provider` (all the providers that wrap the app, and some no-ops for Web.)
-    - `navigation` Next.js has a `pages/` folder. React Native doesn't. This folder contains navigation-related code for RN. You may use it for any navigation code, such as custom links.
 
 You can add other folders inside of `packages/` if you know what you're doing and have a good reason to.
 
@@ -36,7 +36,7 @@ You can add other folders inside of `packages/` if you know what you're doing an
   - Runs `yarn next`
 - Expo local dev:
   - First, build a dev client onto your device or simulator
-    - `cd apps/expo`
+    - `cd apps/native`
     - Then, either `expo run:ios`, or `eas build`
   - After building the dev client, from the root of the monorepo...
     - `yarn native` (This runs `expo start --dev-client`)

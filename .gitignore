@@ -71,6 +71,8 @@ web-build/
 
 .turbo
 build/**
+dist/**
+
 
 .pnp.*
 .yarn/*

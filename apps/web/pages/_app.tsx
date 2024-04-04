@@ -3,10 +3,12 @@ import 'setimmediate'
 
 import { Provider } from 'app/provider'
 import Head from 'next/head'
+import { sub } from 'utils'
 import React from 'react'
 import type { SolitoAppProps } from 'solito'
 
 function MyApp({ Component, pageProps }: SolitoAppProps) {
+  console.log('Sub from utils', sub(10, 20))
   return (
     <>
       <Head>

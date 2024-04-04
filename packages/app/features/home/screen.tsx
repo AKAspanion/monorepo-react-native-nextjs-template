@@ -1,6 +1,5 @@
-import { Text, useSx, View, H1, P, Row, A } from 'dripsy'
+import { useSx, View, H1, P, Row, A } from 'dripsy'
 import { TextLink } from 'solito/link'
-import { MotiLink } from 'solito/moti'
 
 export function HomeScreen() {
   const sx = useSx()
@@ -19,11 +18,8 @@ export function HomeScreen() {
         <P sx={{ textAlign: 'center' }}>
           Solito is made by{' '}
           <A
+            target="_blank"
             href="https://twitter.com/fernandotherojo"
-            hrefAttrs={{
-              target: '_blank',
-              rel: 'noreferrer',
-            }}
             sx={{ color: 'blue' }}
           >
             Fernando Rojo
@@ -42,32 +38,6 @@ export function HomeScreen() {
           Regular Link
         </TextLink>
         <View sx={{ width: 32 }} />
-        <MotiLink
-          href="/user/fernando"
-          animate={({ hovered, pressed }) => {
-            'worklet'
-
-            return {
-              scale: pressed ? 0.95 : hovered ? 1.1 : 1,
-              rotateZ: pressed ? '0deg' : hovered ? '-3deg' : '0deg',
-            }
-          }}
-          from={{
-            scale: 0,
-            rotateZ: '0deg',
-          }}
-          transition={{
-            type: 'timing',
-            duration: 150,
-          }}
-        >
-          <Text
-            selectable={false}
-            sx={{ fontSize: 16, color: 'black', fontWeight: 'bold' }}
-          >
-            Moti Link
-          </Text>
-        </MotiLink>
       </Row>
     </View>
   )
