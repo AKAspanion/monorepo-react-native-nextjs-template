@@ -1,3 +1,9 @@
 {
-  "extends": "../../tsconfig"
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@gluestack/app/*": ["../../packages/app/*"]
+    }
+  }
 }

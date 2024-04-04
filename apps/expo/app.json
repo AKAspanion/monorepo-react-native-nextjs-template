@@ -1,18 +1,21 @@
 {
   "expo": {
-    "name": "template",
-    "slug": "template",
+    "name": "solito-expo-router",
+    "slug": "solito-expo-router",
     "version": "1.0.0",
-    "scheme": "template",
+    "scheme": "solito-expo-router",
     "platforms": [
       "ios",
       "android"
     ],
     "ios": {
-      "bundleIdentifier": "com.spanion.template"
+      "bundleIdentifier": "com.solito.expo-router"
     },
+    "plugins": [
+      "expo-router"
+    ],
     "android": {
-      "package": "com.spanion.template"
+      "package": "com.anonymous.solitoexporouter"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
   "version": "0.0.0",
-  "name": "app",
+  "name": "@gluestack/app",
   "main": "index.ts",
   "dependencies": {
-    "@react-navigation/native": "^6.1.7",
-    "@react-navigation/native-stack": "^6.9.13",
-    "dripsy": "^4.3.3",
+    "@hookform/resolvers": "^3.3.2",
+    "lucide-react-native": "^0.364.0",
     "moti": "latest",
+    "react-hook-form": "^7.47.0",
     "solito": "4.0.1"
   },
   "sideEffects": false
