@@ -1,6 +1,6 @@
 import 'raf/polyfill'
 
-import { Provider } from '@gluestack/app/provider'
+import { Provider } from 'app/provider'
 import Head from 'next/head'
 import React from 'react'
 import type { SolitoAppProps } from 'solito'

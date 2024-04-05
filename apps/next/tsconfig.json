@@ -16,7 +16,7 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@gluestack/app/*": ["../../packages/app/*"]
+      "app/*": ["../../packages/app/*"]
     }
   },
   "include": ["next-env.d.ts", "app-env.d.ts", "**/*.ts", "**/*.tsx"],

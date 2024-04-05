@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@gluestack/app/*": ["../../packages/app/*"]
+      "app/*": ["../../packages/app/*"]
     }
   }
 }

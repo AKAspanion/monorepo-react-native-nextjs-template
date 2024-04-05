@@ -1,4 +1,4 @@
-import CreatePasswordScreen from '@gluestack/app/screens/Login/CreatePassword'
+import CreatePasswordScreen from 'app/screens/Login/CreatePassword'
 
 export default function Page() {
   return <CreatePasswordScreen />

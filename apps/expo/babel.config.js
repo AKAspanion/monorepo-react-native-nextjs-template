@@ -15,7 +15,7 @@ module.exports = function (api) {
           alias: {
             root: ['./'],
             // For development, we want to alias the library to the source
-            ['@gluestack/app']: path.resolve(__dirname, '../../packages/app'),
+            ['app']: path.resolve(__dirname, '../../packages/app'),
           },
         },
       ],
